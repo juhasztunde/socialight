@@ -338,13 +338,15 @@ h1, h2, h3, h4, h5, h6 {
 .qbootstrap-cover,
 .video-hero {
   background-size: cover;
-  position: relative;
+  position: left;
   background-repeat: no-repeat;
 }
+
+
 @media screen and (max-width: 768px) {
   .qbootstrap-cover,
   .video-hero {
-    heifght: inherit;
+    height: inherit;
     padding: 3em 0;
   }
 }
@@ -995,7 +997,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (max-width: 768px) {
   #qbootstrap-testimonials .section-heading h2 {
-    font-size: 30px;
+    font-size: 50px;
   }
 }
 #qbootstrap-testimonials .section-heading.svg-sm .svg {
@@ -1217,7 +1219,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (max-width: 768px) {
   #qbootstrap-started .section-heading h2 {
-    font-size: 30px;
+    font-size: 50px;
   }
 }
 #qbootstrap-started .section-heading h3 {
