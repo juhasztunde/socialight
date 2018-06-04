@@ -308,4 +308,39 @@
 	});
 
 
+
+  // Clients carousel (uses the Owl Carousel library)
+  $(".clients-carousel").owlCarousel({
+    autoplay: true,
+    dots: true,
+    loop: true,
+    responsive: { 0: { items: 2 }, 768: { items: 4 }, 900: { items: 6 }
+    }
+  });
+
+   // Testimonials carousel (uses the Owl Carousel library)
+  $(".testimonials-carousel").owlCarousel({
+    autoplay: true,
+    dots: true,
+    loop: true,
+    items: 1
+  });
+
+
+//Read more-read less
+  $(document).ready(function() {
+  $("#toggle").click(function() {
+    var elem = $("#toggle").text();
+    if (elem == "Mutass többet") {
+      //Stuff to do when btn is in the read more state
+      $("#toggle").text("Mutass kevesebbet");
+      $("#text").slideDown();
+    } else {
+      //Stuff to do when btn is in the read less state
+      $("#toggle").text("Mutass többet");
+      $("#text").slideUp();
+    }
+  });
+});
+
 }());
