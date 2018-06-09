@@ -1,10 +1,14 @@
 <!DOCTYPE html>
+<!--[if lt IE 7]>
 <html class="no-js lt-ie9 lt-ie8 lt-ie7">
    <![endif]-->
+   <!--[if IE 7]>
    <html class="no-js lt-ie9 lt-ie8">
       <![endif]-->
+      <!--[if IE 8]>
       <html class="no-js lt-ie9">
          <![endif]-->
+         <!--[if gt IE 8]><!-->
          <html class="no-js">
             <!--<![endif]-->
             <head>
@@ -63,7 +67,7 @@
                   
                </script>
             </head>
-            <body>
+			<body>
 
                <!-- The Modal -->
                <div id="myModal" class="modal">
@@ -160,12 +164,18 @@ var modal = document.getElementById('myModal');
 var span = document.getElementsByClassName("close")[0];
 var iagree = document.getElementsByClassName("iagree")[0];
 
+
+// When the page loads, open the modal
+window.onscroll = function() {
+  if (!localStorage['first']) {
+       localStorage['first'] = 'yes';
        modal.style.display = "block";
   }
 
 }
 
 // When the user clicks on <span> (x), close the modal
+span.onclick = function() {
     modal.style.display = "none";
 }
 
@@ -998,11 +1008,8 @@ window.onclick = function(event) {
                      else {
                         nav..background = "transparent";
                      }
-
-                  } 
+                  }
                </script> 
 
-
-
             </body>
-         </html>
+</html>
