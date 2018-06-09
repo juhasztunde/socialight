@@ -378,7 +378,7 @@
                                  Elakadtál? Nem nőnek a számaid? Úgy érzed, nem történik semmi az oldaladon és fogalmad sincs, hogy hogyan tovább? Kérj időpontot egy személyes tanácsadásra, ahol megkeressük az elakadás okát és személyre szabottan megtanítom neked, hogyan tudsz eredményeket elérni az oldaladdal és egy igazi, elkötelezett közösséget felépíteni!
                                  <div>
                                     <br>
-                                    <div id="myDIV" style="display:none">
+                                    <div id="package1" style="display:none">
                                        Tartalomgyártás és közösségépítés:
                                        <ul>
                                           <li>stratégia legfontosabb elemei</li>
@@ -394,19 +394,23 @@
                                     </div>
                                  </div>
                                  <div class="btn-container">
-                                    <button id="showmore" onclick="myFunction()" class="btn btn-primary btn-sm">Mutass többet</button>
+                                    <button id="firstButton" onclick="myFunction()" class="btn btn-primary btn-sm">Mutass többet</button>
                                  </div>
 
                                  <script>
 									function myFunction() {
-									    var x = document.getElementById("myDIV");
-									    if (x.style.display === "none") {
-									        x.style.display = "block";
+									    var package1 = document.getElementById("package1");
+
+									    if (package1.style.display === "none") {
+									        package1.style.display = "block";
+									        $("#firstButton").text("Mutass kevesebbet");
 									    } else {
-									        x.style.display = "none";
+									        package1.style.display = "none";									   
+									        $("#firstButton").text("Mutass többet");
 									    }
+
 									}
-									</script>
+								</script>
 
 
                               </blockquote>
@@ -421,7 +425,7 @@
                                  Nincs időd semmire, nem hogy "posztolgatni"? Igazából nem is annyira érted az oldal működését és nem is érdekel? Viszont azt tudod, hogy ez egy szükséges eszköz a vállalkozásod növekedéséhez? Ha így van, akkor bízd rám az egészet szőröstül-bőröstül, és nem lesz többet gondod arra, hogy mit tegyél ki legközelebb az oldaladra. Jelentkezz be egy ingyenes beszélgetésre és nézzük meg, hogy mire van szüksége a vállalkozásodnak!
                                  <div>
                                     <br>
-                                    <span id="text">
+                                    <div id="package2" style="display:none">
                                        Szolgáltatások:
                                        <ul>
                                           <li>Facebook és/vagy Instagram oldal kezelése (posztolás, kommentek, üzenetek megválaszolása, információk frissen tartása)</li>
@@ -433,11 +437,28 @@
                                           <li>fotóanyag készítése általam vagy profi fotós partnerem által igény szerint</li>
                                           <li>blogbejegyzés írása (igény szerint képekkel, szerkesztett formában)</li>
                                        </ul>
-                                    </span>
+                                    </div>
                                  </div>
                                  <div class="btn-container">
-                                    <button id="toggle" class="btn btn-primary btn-sm">Mutass többet</button>
+                                    <button id="secondButton" onclick="myFunction2()" class="btn btn-primary btn-sm">Mutass többet</button>
                                  </div>
+
+                                 <script>
+									function myFunction2() {
+									    var package1 = document.getElementById("package2");
+
+									    if (package1.style.display === "none") {
+									        package1.style.display = "block";
+									        $("#secondButton").text("Mutass kevesebbet");
+									    } else {
+									        package1.style.display = "none";									   
+									        $("#secondButton").text("Mutass többet");
+									    }
+
+									}
+								</script>
+
+
                               </blockquote>
                               <p class="author">45.000 Ft-tól</p>
                            </div>
@@ -450,7 +471,7 @@
                                  Szeretnéd, ha egy szakértő tervezné meg az oldaladat? Mi legyen rajta, hogy nézzen ki, mikor és mennyit posztolj? Milyen filtert használj, milyen témákról írj, mi legyen a bioban? Mikor tegyél ki instastory-t és az mit tartalmazzon? Kell-e élőznöd, és ha igen, miről? Mire kell mindig figyelned? Hogy találod meg a célközönséged? Hogy teszed elkötelezett vásárlókká őket? Ha mindezen kérdésekre keresed a választ, neked egy átfogó stratégiára van szükséged. Neked az kell, hogy letisztázzuk, kit és hogyan tudsz elérni a social media segítségével és hogyan tudod arra használni, hogy növeld a bevételeidet. Ha így van, kérj egy időpontot egy ingyenes találkozóra, ahol megbeszéljük, hogy jelenleg hol tartasz és ehhez mérten hogy tudom segíteni a vállalkozásodat.
                                  <div>
                                     <br>
-                                    <span id="text">
+                                    <div id="package3" style="display:none">
                                        A stratégiaalkotás részei:
                                        <ul>
                                           <li>cél meghatározása</li>
@@ -461,11 +482,27 @@
                                           <li>növekedési módszerek</li>
                                           <li>welcome drink módszer</li>
                                        </ul>
-                                    </span>
+                                    </div>
                                  </div>
                                  <div class="btn-container">
-                                    <button id="toggle" class="btn btn-primary btn-sm">Mutass többet</button>
+                                    <button id="thirdButton" onclick="myFunction3()"class="btn btn-primary btn-sm">Mutass többet</button>
                                  </div>
+
+                                 <script>
+									function myFunction3() {
+									    var package1 = document.getElementById("package3");
+
+									    if (package1.style.display === "none") {
+									        package1.style.display = "block";
+									        $("#thirdButton").text("Mutass kevesebbet");
+									    } else {
+									        package1.style.display = "none";									   
+									        $("#thirdButton").text("Mutass többet");
+									    }
+
+									}
+								</script>
+
                               </blockquote>
                               <p class="author">50.000 Ft-tól</p>
                            </div>
