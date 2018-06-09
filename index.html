@@ -378,7 +378,7 @@
                                  Elakadtál? Nem nőnek a számaid? Úgy érzed, nem történik semmi az oldaladon és fogalmad sincs, hogy hogyan tovább? Kérj időpontot egy személyes tanácsadásra, ahol megkeressük az elakadás okát és személyre szabottan megtanítom neked, hogyan tudsz eredményeket elérni az oldaladdal és egy igazi, elkötelezett közösséget felépíteni!
                                  <div>
                                     <br>
-                                    <span id="text">
+                                    <div id="myDIV" style="display:none">
                                        Tartalomgyártás és közösségépítés:
                                        <ul>
                                           <li>stratégia legfontosabb elemei</li>
@@ -391,11 +391,24 @@
                                           <li>live kiaknázása</li>
                                           <li>applikációk használata</li>
                                        </ul>
-                                    </span>
+                                    </div>
                                  </div>
                                  <div class="btn-container">
-                                    <button id="toggle" class="btn btn-primary btn-sm">Mutass többet</button>
+                                    <button id="showmore" onclick="myFunction()" class="btn btn-primary btn-sm">Mutass többet</button>
                                  </div>
+
+                                 <script>
+									function myFunction() {
+									    var x = document.getElementById("myDIV");
+									    if (x.style.display === "none") {
+									        x.style.display = "block";
+									    } else {
+									        x.style.display = "none";
+									    }
+									}
+									</script>
+
+
                               </blockquote>
                               <p class="author">15.000 Ft-tól</p>
                            </div>
