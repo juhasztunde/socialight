@@ -1915,5 +1915,10 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 992px) {
 #clients .owl-dot.active {
     background-color: #efd2da;
-
 }
+
+#testimonials .testimonial-item .testimonial-img {
+    width: 200px}
+
+    #testimonials .testimonial-item h3 {
+    font-size: 40px}
