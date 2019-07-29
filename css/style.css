@@ -747,7 +747,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 10px;
   right: 10px;
   content: '';
-  background: #fef6f8;
+  background: #fafafa;
   z-index: -1;
 }
 .couple img {
