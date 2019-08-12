@@ -2374,9 +2374,8 @@ select[multiple].input-lg {
 }
 
 .btn:focus {
-    outline: thin dotted;
-    outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: -2px
+
+    outline:none;
 }
 
 .btn:hover,
@@ -2556,6 +2555,7 @@ fieldset[disabled] .btn-success.active {
     color: #fff;
     background-color: #39b3d7;
     border-color: #269abc
+
 }
 
 .btn-info:active,
