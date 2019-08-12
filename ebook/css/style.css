@@ -33,7 +33,7 @@ h6 {
     margin: 0 0 30px;
     font-family: 'Varela Round', sans-serif;
     font-weight: 400;
-    color: #444;
+    color: black;
 }
 
 
@@ -41,7 +41,7 @@ h6 {
 
 blockquote {
 	font-family: Georgia, arial, sans-serif;
-	color: #bbb;
+	color: black;
 	font-size: 20px;
 }
 
@@ -655,8 +655,8 @@ a.btn:hover {
 .btn-skin:active,
 .btn-skin.active {
   color: #fff;
-  background-color: #666;
-  border-color: #666;
+  background-color: rgb(202, 202, 202);
+  border-color: #fff;
 }
 
 
@@ -762,3 +762,6 @@ a.btn:hover {
   content: "\f055" !important;
 }
 
+.btn {
+user-select: none 
+}
