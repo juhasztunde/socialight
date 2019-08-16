@@ -1692,13 +1692,14 @@ h1, h2, h3, h4, h5, h6 {
 /*# sourceMappingURL=style.css.map */
 
 #contact {
-    background-image: url(../images/contacts.jpg);
+    background-image: url(../images/contacts2.jpg);
 }
 
 
 #contact .form-group textarea.form-control {
     height: 190px;
 }
+
 
 #contact .form-group {
     margin: 3%;
@@ -1749,7 +1750,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #headerpic {
-  background-image: url(../images/header12.jpg)
+  background-image: url(../images/niki4.jpg)
 }
 
 #justify {
