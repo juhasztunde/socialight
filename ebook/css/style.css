@@ -845,3 +845,9 @@ user-select: none
 #buy-tickets #buy-ticket-modal .btn:hover {
   background-color: #e0072f;
 }
+
+@font-face {
+font-family: "Sabyan";
+src: url("../fonts/Sabyan.ttf");
+s
+}
