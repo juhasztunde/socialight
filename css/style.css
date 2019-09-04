@@ -233,7 +233,7 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
   width: 100%;
   padding-bottom: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
   clear: both;
 }
 .section-heading.svg-sm-2 .svg {
@@ -1783,7 +1783,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #terms {
       color: #7f7f7f;
-    text-decoration: underline;
+    text-decoration: none;
     text-shadow: .1px .1px black
 }
 
